@@ -1613,9 +1613,9 @@ ol li:hover::after {
 .contact-form label span {
     top: 0px;
     left: 0px;
-    font-size: 0.86rem;
+    font-size: 1.3rem;
     position: absolute;
-    transition: all .3s ease-in-out;
+    transition: all .2s ease-in-out;
 }
 
 .contact-form label.filled span {
