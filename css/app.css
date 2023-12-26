@@ -1432,7 +1432,7 @@ ol li:hover::after {
 }
 
 .main .about .about-inner {
-    display: flex;
+
     flex-direction: column;
 }
 
@@ -1598,7 +1598,7 @@ ol li:hover::after {
     padding: 40px 80px;
     align-content: baseline;
     justify-content: center;
-    background-color: #0012219e;
+  
     border-top-left-radius: 22px;
     border-bottom-left-radius: 22px;
 }
