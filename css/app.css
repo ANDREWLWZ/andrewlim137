@@ -1568,7 +1568,7 @@ ol li:hover::after {
 }
 
 .page.contact .contact-inner{
-    width: 70%;
+    width: 100%;
     display: flex;
     height: 560px;
     align-self: center;
@@ -1590,14 +1590,13 @@ ol li:hover::after {
 }
 
 .contact-form {
-    width: 58%;
+    width: 100%;
     height: 100%;
-    display: flex;
+    display: center;
     flex: 0 0 58%;
     flex-wrap: wrap;
-    padding: 40px 80px;
-    align-content: baseline;
-    justify-content: center;
+    padding: 40px 80px 20px 20px;
+    
   
     border-top-left-radius: 22px;
     border-bottom-left-radius: 22px;
@@ -1820,6 +1819,7 @@ ol li:hover::after {
 
 .contact-details .contact-body .description{
     font-size: 1.06rem;
+    margin-right: 50px;
 }
 
 .contact-details .contact-footer {
@@ -1832,7 +1832,7 @@ ol li:hover::after {
 
 .contact-details .contact-footer > p {
     margin-bottom: 20px;
-    font-size: 1.2rem;
+    font-size: 1.0rem;
 }
 
 .contact-details .contact-footer .contact-links {
@@ -1840,13 +1840,13 @@ ol li:hover::after {
 }
 
 .contact-details .contact-footer .contact-link {
-    width: 40px;
+    width: 30px;
     height: 40px;
     display: block;
 }
 
 .contact-details .contact-footer .contact-link-box:not(:last-child) {
-    margin-right: 20px;
+    margin-right: 40px;
 }
 
 .contact-details .contact-footer .contact-mail circle {
@@ -2856,7 +2856,7 @@ ol li:hover::after {
 
 @media (min-width: 910px) and (max-width: 1060px) {
     .page.contact .contact-inner {
-        width: 80vw;
+        width: 70vw;
     }
 }
 
@@ -2980,7 +2980,7 @@ ol li:hover::after {
     }
     .contact-form {
         width: 100%;
-        padding: 40px 35px;
+        padding: 40px 45px;
         border-bottom-left-radius: 22px;
         border-bottom-right-radius: 22px;
         border-top-right-radius: 22px;
@@ -3381,7 +3381,7 @@ ol li:hover::after {
         padding-top: 5rem;
     }
     .page.contact .contact-inner {
-        width: 55rem;
+        width: 45rem;
         height: 33rem;
     }
     .main .about .title.skills-title {
