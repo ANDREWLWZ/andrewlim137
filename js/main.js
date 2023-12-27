@@ -312,8 +312,8 @@ window.onbeforeunload = function(e) {
             setTimeout(function() {
                 Load(1, $("#fill_text"));
             }, 100); // Further reduced delay
-        }, 100); // Further reduced delay
-    }, 100), $("#skip_loader").on("click", function() {
+        }, 50); // Further reduced delay
+    }, 20), $("#skip_loader").on("click", function() {
         $(".loader").addClass("remove"), canLoaderAnim = !1, $("#cursor").removeClass("hover"), setTimeout(function() {
             $(".loader").remove()
         }, 300)
