@@ -957,7 +957,7 @@ body .filter {
     top: 0;
     width: 100vw;
     height: 100vh;
-    position: absolute;
+    position: fixed;
     backdrop-filter: blur(68px);
     -webkit-backdrop-filter: blur(68px);
     -webkit-backface-visibility: hidden;
@@ -1590,7 +1590,7 @@ ol li:hover::after {
 }
 
 .contact-form {
- 
+    
     height: 100%;
     display: center;
     flex: 0 0 58%;
