@@ -970,32 +970,7 @@ body .filter {
     transform: translateZ(0);
 }
 
-body .shapes .shape {
-    z-index: 2;
-     /*background-color: #00a1b1;*/
-    top: 50%;
-    right: 83px;
-    width: 500px;
-    opacity: 0.7;
-    height: 200px;
-    position: fixed;
-    border-radius: 95px;
-    background-color: #43D9AD;
-    animation-duration: 20s;
-    animation-timing-function: linear;
-    animation-name: shape_animation_2;
-    animation-iteration-count: infinite;
-    transform: translateY(-50%) rotate(30deg);
-}
 
-body .shapes .shape:nth-child(2) {
-    /*background-color: #91ffa9;*/
-    top: 57%;
-    right: 89px;
-    background-color: #4D5BCE;
-    animation-name: shape_animation_1;
-    transform: translateY(-50%) rotate(326deg);
-}
 
 
 /*#cursor {*/
