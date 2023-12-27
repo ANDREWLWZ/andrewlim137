@@ -14,7 +14,7 @@ span {
 h1,h2,h3,h4,h5,h6,p,a,span,li,a,button,pre,label,input,textarea, textarea::placeholder,input::placeholder {
     color: #FFFFFF;
     font-weight: 200;
-    font-family: Montserrat Alternates !important;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif !important;
 }
 
 #scroll_top {
